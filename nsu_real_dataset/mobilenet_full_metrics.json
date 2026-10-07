@@ -1,0 +1,22 @@
+{
+  "epochs": 10,
+  "threshold": 0.3,
+  "training_tiles": 45,
+  "seconds": 36.6,
+  "loss": [
+    1.5359,
+    1.534,
+    1.4542,
+    1.4137,
+    1.4178,
+    1.3486,
+    1.2549,
+    1.0998,
+    1.0957,
+    1.1857
+  ],
+  "dice": 0.4617,
+  "iou": 0.3001,
+  "checkpoint": "unet_mobilenetv3_full.pt",
+  "encoder": "ImageNet pretrained"
+}

@@ -1,0 +1,25 @@
+# Local configuration and secrets
+.env*
+!.env.example
+*.local
+*.secret
+*.secrets
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local virtual environments and Python caches
+.venv/
+__pycache__/
+*.pyc
+
+# Local databases, containers, logs, and OS/editor files
+*.db
+*.sqlite
+*.sqlite3
+postgis_data/
+*.log
+.DS_Store
+.idea/
+.vscode/

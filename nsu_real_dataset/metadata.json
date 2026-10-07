@@ -1,0 +1,11 @@
+{
+  "area": "Namseoul University, Cheonan, South Korea",
+  "z": 18,
+  "ways": 56,
+  "tiles": 45,
+  "classes": {
+    "0": "background",
+    "1": "OSM walkable corridor buffer"
+  },
+  "note": "The label is a pseudo-label from OSM centerlines; verify manually before training."
+}

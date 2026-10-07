@@ -1,0 +1,6 @@
+{
+  "epochs": 10,
+  "seconds": 70.2,
+  "seconds_per_epoch": 7.0,
+  "training_tiles": 45
+}

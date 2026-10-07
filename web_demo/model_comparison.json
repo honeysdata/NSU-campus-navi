@@ -1,0 +1,29 @@
+{
+  "epochs": 10,
+  "threshold": 0.3,
+  "sample_id": "18_223653_102117",
+  "validation_tiles": 45,
+  "models": {
+    "unet": {
+      "label": "기본 U-Net · SAME SAMPLE 체크포인트",
+      "seconds": 70.2,
+      "dice": 0.2585,
+      "iou": 0.1485,
+      "loss_final": 1.4481,
+      "overlay": "../nsu_real_dataset/demo_after_overlay.png",
+      "checkpoint": "unet_nsu_walkable.pt",
+      "training_tiles": 45
+    },
+    "unet_mobilenetv3": {
+      "label": "U-Net + MobileNetV3 · ImageNet 사전학습",
+      "seconds": 36.6,
+      "dice": 0.4617,
+      "iou": 0.3001,
+      "loss_final": 1.1857,
+      "checkpoint": "unet_mobilenetv3_full.pt",
+      "training_tiles": 45,
+      "encoder": "ImageNet pretrained",
+      "overlay": "../nsu_real_dataset/comparison_unet_mobilenetv3_overlay.png"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+[project]
+name = "nsu-walking-navigation-pilot"
+version = "0.1.0"
+description = "남서울대학교 실제 공간데이터 기반 보행로 세그멘테이션 파일럿"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "pillow>=10.0",
+]
+
+[project.optional-dependencies]
+ml = [
+  "torch>=2.2",
+  "torchvision>=0.17",
+]
+server = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "psycopg[binary,pool]>=3.2",
+]
+
+[tool.uv]
+package = false

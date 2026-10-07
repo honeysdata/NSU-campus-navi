@@ -1,0 +1,230 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": 1,
+        "node_type": "junction",
+        "confidence": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10118999999999,
+          37.5008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": 2,
+        "node_type": "junction",
+        "confidence": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10122,
+          37.50068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": 3,
+        "node_type": "junction",
+        "confidence": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10079999999999,
+          37.50139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": 4,
+        "node_type": "junction",
+        "confidence": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10055,
+          37.5013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": 5,
+        "node_type": "junction",
+        "confidence": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10024999999999,
+          37.50115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": 6,
+        "node_type": "junction",
+        "confidence": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10079999999999,
+          37.5008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": 7,
+        "node_type": "junction",
+        "confidence": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10137999999999,
+          37.50044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": 8,
+        "node_type": "junction",
+        "confidence": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10127999999999,
+          37.5006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": 9,
+        "node_type": "junction",
+        "confidence": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10132,
+          37.50052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": 10,
+        "node_type": "junction",
+        "confidence": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10078999999999,
+          37.50119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": 11,
+        "node_type": "junction",
+        "confidence": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10079999999999,
+          37.50021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": 12,
+        "node_type": "junction",
+        "confidence": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1014,
+          37.5004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": 13,
+        "node_type": "junction",
+        "confidence": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10041,
+          37.50081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": 14,
+        "node_type": "junction",
+        "confidence": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10020999999999,
+          37.5008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": 15,
+        "node_type": "junction",
+        "confidence": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10139,
+          37.5008
+        ]
+      }
+    }
+  ]
+}

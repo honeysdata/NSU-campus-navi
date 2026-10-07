@@ -1,0 +1,4 @@
+[
+  {"campus_id":"namseoul","name":"남서울대학교 천안 캠퍼스","data":"../web_demo/data.json","center":[36.90855,127.14278]},
+  {"campus_id":"snu-gwanak","name":"서울대학교 관악 캠퍼스(그래프 파일럿)","data":"../data/snu_gwanak.json","center":[37.4599,126.9520]}
+]
