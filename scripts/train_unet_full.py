@@ -9,8 +9,8 @@ from torch.utils.data import DataLoader
 from compare_models import EPOCHS, loss_fn
 from train_unet import NSUDataset, UNet
 
-ROOT = Path(__file__).parent
-DATASET_ROOT = ROOT / "nsu_real_dataset"
+ROOT = Path(__file__).resolve().parents[1]
+DATASET_ROOT = ROOT / "data/datasets/namseoul_university"
 
 
 def main():

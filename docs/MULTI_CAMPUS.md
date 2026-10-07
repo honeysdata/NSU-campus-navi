@@ -20,7 +20,7 @@ campus_id = snu-gwanak
 ## 새 캠퍼스 추가
 
 ```bash
-uv run build_graph_json.py \
+uv run python scripts/build_graph_json.py \
   --source new-campus.osm \
   --output data/new-campus.json
 ```

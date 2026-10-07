@@ -15,9 +15,9 @@ from pathlib import Path
 
 import numpy as np
 
-ROOT = Path(__file__).parent
-OSM = ROOT / "nsu_map.osm"
-OUT = ROOT / "nsu_real_dataset"
+ROOT = Path(__file__).resolve().parents[1]
+OSM = ROOT / "data/raw/nsu_map.osm"
+OUT = ROOT / "data/datasets/namseoul_university"
 Z = 18
 TILE_SIZE = 256
 HIGHWAYS = {"footway", "path", "pedestrian", "steps", "service", "track", "cycleway"}

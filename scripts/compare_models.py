@@ -19,8 +19,8 @@ from torchvision.models import MobileNet_V3_Small_Weights, mobilenet_v3_small
 from train_unet import DoubleConv, NSUDataset, UNet
 
 
-ROOT = Path(__file__).parent
-DATASET_ROOT = ROOT / "nsu_real_dataset"
+ROOT = Path(__file__).resolve().parents[1]
+DATASET_ROOT = ROOT / "data/datasets/namseoul_university"
 EPOCHS = 10
 THRESHOLD = 0.3
 

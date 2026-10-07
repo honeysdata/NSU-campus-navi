@@ -7,8 +7,8 @@ from PIL import Image, ImageDraw
 
 from train_unet import UNet
 
-ROOT = Path(__file__).parent
-DATASET = ROOT / "nsu_real_dataset"
+ROOT = Path(__file__).resolve().parents[1]
+DATASET = ROOT / "data/datasets/namseoul_university"
 SAMPLE = DATASET / "images/18_223653_102117.jpg"
 
 

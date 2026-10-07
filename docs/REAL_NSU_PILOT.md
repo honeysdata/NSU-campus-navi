@@ -3,7 +3,7 @@
 ## 확보한 데이터
 
 - 지역: 충청남도 천안시 서북구 성환읍 남서울대학교 주변
-- 원본 벡터: OpenStreetMap 공식 API에서 받은 `nsu_map.osm`
+- 원본 벡터: OpenStreetMap 공식 API에서 받은 `data/raw/nsu_map.osm`
 - 보행로 필터: `footway`, `path`, `pedestrian`, `steps`, `service`, `track`, `cycleway`
 - 영상 입력: Esri World Imagery tile, Web Mercator zoom 18
 - 라벨: OSM 보행로 중심선을 픽셀 폭 5로 확장한 pseudo-label
@@ -16,10 +16,10 @@ OSM 라벨은 실제 정답이 아니라 기존 지도 데이터를 이용한 �
 python3 build_nsu_dataset.py
 ```
 
-현재 `nsu_real_dataset/`에는 남서울대학교 주변의 실제 영상 타일 45장과 동일 위치의 마스크 45장이 있습니다.
+현재 `data/datasets/namseoul_university/`에는 남서울대학교 주변의 실제 영상 타일 45장과 동일 위치의 마스크 45장이 있습니다.
 
 ```text
-nsu_real_dataset/
+data/datasets/namseoul_university/
 ├── images/                  # 256×256 실제 항공영상 타일
 ├── masks/                   # 동일 타일의 OSM 기반 보행로 라벨
 ├── osm_walkways.geojson     # 원본 보행로 벡터

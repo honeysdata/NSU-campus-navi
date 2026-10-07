@@ -12,7 +12,7 @@ from torch import nn
 from torch.utils.data import Dataset, DataLoader
 from PIL import Image
 
-ROOT = Path(__file__).parent / "nsu_real_dataset"
+ROOT = Path(__file__).resolve().parents[1] / "data/datasets/namseoul_university"
 
 
 class NSUDataset(Dataset):

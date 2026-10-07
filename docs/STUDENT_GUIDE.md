@@ -10,9 +10,9 @@
 
 ## 30분 진행 순서
 
-1. `python3 pilot.py`를 실행한다.
-2. `pilot_output/synthetic_walkable_mask.pgm`를 확인한다.
-3. `pilot_output/skeleton.pgm`를 확인한다.
+1. `python3 scripts/pilot.py`를 실행한다.
+2. `outputs/graph_pilot/synthetic_walkable_mask.pgm`를 확인한다.
+3. `outputs/graph_pilot/skeleton.pgm`를 확인한다.
 4. `nodes.geojson`와 `edges.geojson`를 QGIS에 불러온다.
 5. `load_postgis.sql`의 테이블 구조와 공간 인덱스를 읽는다.
 6. 다음 질문에 답한다.

@@ -10,12 +10,12 @@ from train_unet import UNet
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--checkpoint", default="nsu_real_dataset/unet_nsu_walkable.pt")
+    parser.add_argument("--checkpoint", default="data/datasets/namseoul_university/unet_nsu_walkable.pt")
     parser.add_argument("--image", default=None)
     parser.add_argument("--threshold", type=float, default=0.3)
     args = parser.parse_args()
-    root = Path(__file__).parent
-    image_path = Path(args.image) if args.image else root / "nsu_real_dataset/images/18_223653_102117.jpg"
+    root = Path(__file__).resolve().parents[1]
+    image_path = Path(args.image) if args.image else root / "data/datasets/namseoul_university/images/18_223653_102117.jpg"
     model = UNet()
     model.load_state_dict(torch.load(args.checkpoint, map_location="cpu"))
     model.eval()
@@ -30,9 +30,9 @@ def main():
     draw = ImageDraw.Draw(overlay)
     draw.rectangle((4, 4, 220, 28), fill=(0, 0, 0, 180))
     draw.text((10, 9), f"NSU predicted walkable: {image_path.name}", fill="white")
-    out = root / "nsu_real_dataset" / "demo_overlay.png"
+    out = root / "data/datasets/namseoul_university" / "demo_overlay.png"
     overlay.convert("RGB").save(out)
-    Image.fromarray(mask * 255).save(root / "nsu_real_dataset" / "demo_predicted_mask.png")
+    Image.fromarray(mask * 255).save(root / "data/datasets/namseoul_university" / "demo_predicted_mask.png")
     print(f"image={image_path}")
     print(f"overlay={out}")
     print(f"positive_pixels={int(mask.sum())}")

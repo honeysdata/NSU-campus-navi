@@ -15,7 +15,7 @@ from typing import Dict, Iterable, List, Tuple
 
 import numpy as np
 
-OUT = Path(__file__).parent / "pilot_output"
+OUT = Path(__file__).resolve().parents[1] / "outputs/graph_pilot"
 H = W = 160
 
 

@@ -10,7 +10,7 @@
       "dice": 0.2585,
       "iou": 0.1485,
       "loss_final": 1.4481,
-      "overlay": "../nsu_real_dataset/demo_after_overlay.png",
+      "overlay": "../data/datasets/namseoul_university/demo_after_overlay.png",
       "checkpoint": "unet_nsu_walkable.pt",
       "training_tiles": 45
     },
@@ -23,7 +23,7 @@
       "checkpoint": "unet_mobilenetv3_full.pt",
       "training_tiles": 45,
       "encoder": "ImageNet pretrained",
-      "overlay": "../nsu_real_dataset/comparison_unet_mobilenetv3_overlay.png"
+      "overlay": "../data/datasets/namseoul_university/comparison_unet_mobilenetv3_overlay.png"
     }
   }
 }
