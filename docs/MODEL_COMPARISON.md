@@ -33,6 +33,22 @@ flowchart LR
     ASPP --> M3[보행 Mask]
 ```
 
+## 표준 구현 모델: SMP U-Net
+
+`segmentation_models_pytorch`의 U-Net을 별도 기준 모델로 추가했다. Encoder는 `resnet18`, 가중치는 ImageNet 사전학습, Decoder는 SMP의 표준 U-Net Decoder를 사용한다. 기존 Custom U-Net과 구조·가중치 초기화가 다르므로 별도의 모델 결과로 기록한다.
+
+```bash
+uv sync --extra ml
+uv run python scripts/train_smp_unet.py
+```
+
+생성 파일:
+
+- `data/datasets/namseoul_university/smp_unet_resnet18_imagenet.pt`
+- `data/datasets/namseoul_university/smp_unet_resnet18_metrics.json`
+
+SMP U-Net은 표준화된 구현과 pretrained encoder를 사용하므로 Custom U-Net과 비교할 때 동일 샘플·라벨·epoch·threshold를 유지해야 한다.
+
 ## 모델별 해석
 
 ### U-Net

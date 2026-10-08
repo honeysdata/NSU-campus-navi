@@ -12,6 +12,7 @@ dependencies = [
 ml = [
   "torch>=2.2",
   "torchvision>=0.17",
+  "segmentation-models-pytorch>=0.3.3",
 ]
 server = [
   "fastapi>=0.115",

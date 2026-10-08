@@ -24,6 +24,18 @@
       "training_tiles": 45,
       "encoder": "ImageNet pretrained",
       "overlay": "../data/datasets/namseoul_university/comparison_unet_mobilenetv3_overlay.png"
+    },
+    "smp_unet_resnet18": {
+      "label": "SMP U-Net + ResNet18 · ImageNet 사전학습",
+      "seconds": 82.7,
+      "dice": 0.3074,
+      "iou": 0.1989,
+      "loss_final": 1.2054,
+      "overlay": "../data/datasets/namseoul_university/smp_unet_resnet18_overlay.png",
+      "checkpoint": "smp_unet_resnet18_imagenet.pt",
+      "training_tiles": 45,
+      "encoder": "ResNet18",
+      "framework": "segmentation_models_pytorch"
     }
   }
 }

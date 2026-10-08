@@ -1,0 +1,25 @@
+{
+  "model": "segmentation_models_pytorch.Unet",
+  "encoder": "resnet18",
+  "encoder_weights": "imagenet",
+  "epochs": 10,
+  "training_tiles": 45,
+  "seconds": 82.7,
+  "seconds_per_epoch": 8.3,
+  "loss": [
+    1.564,
+    1.4255,
+    1.3808,
+    1.3255,
+    1.3379,
+    1.2592,
+    1.1647,
+    1.1863,
+    1.2389,
+    1.2054
+  ],
+  "dice": 0.3074,
+  "iou": 0.1989,
+  "threshold": 0.3,
+  "sample_id": "18_223653_102117"
+}
